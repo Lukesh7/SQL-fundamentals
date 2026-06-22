@@ -19,3 +19,6 @@ AFTER emp_name
 ALTER TABLE employees
 MODIFY COLUMN Hired_date DATE
 FIRST;
+-- to modify the data type of salary column 
+ALTER TABLE employees
+MODIFY salary DECIMAL(7,2);
